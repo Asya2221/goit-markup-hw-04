@@ -288,7 +288,7 @@ ul {
 }
 
 .team-info {
-    padding: 32px 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
