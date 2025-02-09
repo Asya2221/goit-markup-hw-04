@@ -288,7 +288,7 @@ ul {
 }
 
 .team-info {
-    width: 100%;
+    padding: 32px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -347,8 +347,11 @@ background-color: #404bbf;
     background-color: #404bbf;
 }
 
-.team-soc-icon {
-    fill: #F4F4FD;
+.team-soc-list {
+    display: flex;
+    gap: 24px;
+    margin-top: 8px;
+    justify-content: center;
 }
 
 /*--------------------PORTFOLIO---------------*/
