@@ -47,7 +47,7 @@ ul {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
-     border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-container {
@@ -147,10 +147,9 @@ ul {
 /*--------------------HERO---------------*/
 
 .hero {
-    background-image:linear-gradient(
-     rgba(46, 47, 66, 0.7),
-     rgba(46, 47, 66, 0.7)),
-     url(../images/people.office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+       rgba(46, 47, 66, 0.7)),
+       url(../images/img-name.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -254,6 +253,9 @@ ul {
 .team {
     background-color: #F4F4FD;
     padding: 120px 0;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-title {
@@ -277,6 +279,7 @@ ul {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100% - 72px) / 4);
+    justify-content: center;
 }
 
 .team-image {
@@ -334,7 +337,7 @@ ul {
 }
 
 .team-soc-link:hover {
-background-color: #404BBF;
+background-color: #404bbf;
 }
 
 .team-soc-icon {
@@ -464,6 +467,7 @@ background-color: #404BBF;
     color: #f4f4fd;
     max-width: 264px;
     margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .footer-social {}
@@ -496,7 +500,7 @@ background-color: #404BBF;
 }
 
 .footer-soc-link:hover {
-    background-color: #31D0AA;
+    background-color: #31d0aa;
 }
 
 .footer-soc-icon {
@@ -510,6 +514,8 @@ background-color: #404BBF;
     max-width: 592px;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: baseline;
+    margin-right: 120px
 }
 
 .footer-container {
