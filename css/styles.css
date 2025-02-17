@@ -2,10 +2,16 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
 }
 
-p, h1,h2,h3,h4,h5,h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
@@ -41,7 +47,6 @@ ul {
 }
 
 /*--------------------HEDER---------------*/
-
 
 .header {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -81,7 +86,7 @@ ul {
     display: flex;
     gap: 40px;
     position: relative;
-    
+
 }
 
 .header-menu-link {
@@ -121,7 +126,7 @@ ul {
 
 .header-address-list {
     display: flex;
-   gap: 40px;
+    gap: 40px;
 }
 
 .header-address-link {
@@ -148,8 +153,8 @@ ul {
 
 .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-       rgba(46, 47, 66, 0.7)),
-       url(../images/img-name.jpeg);
+            rgba(46, 47, 66, 0.7)),
+        url(../images/people.office.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -157,7 +162,6 @@ ul {
     max-width: 1440px;
     margin: 0 auto;
 }
-
 
 
 .hero-title {
@@ -278,8 +282,8 @@ ul {
     flex-basis: calc((100% - 72px) / 4);
     justify-content: center;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-            0px 1px 1px rgba(46, 47, 66, 0.16),
-            0px 2px 1px rgba(46, 47, 66, 0.08);
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-image {
@@ -315,9 +319,9 @@ ul {
 
 .team-details {
     display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .team-soc-list {
@@ -340,7 +344,7 @@ ul {
 }
 
 .team-soc-link:hover {
-background-color: #404bbf;
+    background-color: #404bbf;
 }
 
 .team-soc-link:focus {
@@ -391,8 +395,8 @@ background-color: #404bbf;
 
 .portfolio-item:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item:hover .portfolio-cover-text {
@@ -457,20 +461,28 @@ background-color: #404bbf;
     padding: 100px 0
 }
 
+.footer-info {
+    display: flex;
+}
+
+.footer-content {
+    margin-right: 120px;
+}
+
 .footer-logo {
     font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-        display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
 }
 
 .footer-logo span {
     font-family: "Raleway", sans-serif;
-        color: #f4f4fd;
+    color: #f4f4fd;
 }
 
 .footer-text {
@@ -483,7 +495,9 @@ background-color: #404bbf;
     margin-top: 16px;
 }
 
-.footer-social {}
+.footer-social {
+    margin-right: 80px;
+}
 
 .footer-social-title {
     font-weight: 500;
@@ -527,25 +541,271 @@ background-color: #404bbf;
     height: 24px;
 }
 
-.footer-info {
-    display: flex;
-    max-width: 592px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-.footer-container {
-    flex: 1;
-    margin-right: 120px;
-}
-
-.footer-social {
-    flex: 1;
-}
-
 .footer-soc-list {
     display: flex;
     gap: 16px;
+}
+
+.e-mail-input {}
+
+.input {}
+
+.footer-form-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-field {}
+
+.footer-input {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.footer-input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.footer-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    background: #4d5ae5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.footer-button:hover {
+    background-color: #404BBF;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+    background: #404bbf;
+}
+
+/*--------------------MODAL---------------*/
+
+.backdrop {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(46, 47, 66, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.modal {
+    width: 408px;
+    min-height: 584px;
+    background-color: #FCFCFC;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 72px 24px 24px 24px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    align-items: center;
+    border-radius: 100%;
+    fill: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    fill: transparent;
+}
+
+.modal-close:hover {
+    background-color: #404BBF;
+}
+
+.close-icon {
+    fill: #2e2f42;
+}
+
+.modal-close:hover+.close-icon {
+    fill: #FFFFFF;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 16px;
+}
+
+.modal-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.400);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    padding-right: 16px;
+    outline: transparent;
+}
+
+.modal-input:focus {
+    border-color: #4D5AE5;
+}
+
+.modal-input:focus+.modal-input-icon {
+    fill: #4D5AE5;
+}
+
+.modal-label {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    margin-bottom: 4px;
+}
+
+.modal-input-icon {
+    fill: #2E2F42;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-wrap {
+    position: relative;
+}
+
+.modal-field {
+    margin-bottom: 8px;
+}
+
+.modal-textarea {
+    width: 100%;
+    height: 120px;
+    border: 1px solid rgba(46, 47, 66, 0.400);
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 16px;
+    outline: transparent;
+    resize: none;
+}
+
+.modal-textarea::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+}
+
+.modal-checkbox {
+    margin-bottom: 24px;
+}
+
+.modal-check-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: flex;
+    align-items: center;
+}
+
+.modal-check-link {
+    line-height: 1.33333;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+}
+
+.modal-check-item {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.modal-check:checked+.modal-check-text .modal-check-item {
+    background-color: #404BBF;
+    border: none;
+    fill: #F4F4FD;
+}
+
+.modal-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4d5ae5;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    display: block;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-button:hover {
+    background-color: #404BBF;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+    background: #404bbf;
 }
 
